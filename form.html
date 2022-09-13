@@ -1,0 +1,105 @@
+<html>
+    
+
+<title>fill form</title>
+<header>
+
+
+</header>
+
+<style>
+body{
+background-image:url(https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg?w=2000);
+
+}
+
+</style>
+    <body >
+
+<!--form start-->
+
+<form action="recieve.php" style="border-style: solid;padding: 10px;text-align: center;" method="post">
+    username:    <input type="text" name="username" required="required"><br><br>
+    father name: <input type="text" name="fathername" required="required"><br><br>
+    address:     <input type="text" name="address" ><br><br>
+    password:     <input type="password" name="password" required="required"><br><br>
+    description:     <textarea name="comments" cols="20" rows="4">Enter your academic record</textarea><br><hr width="500px">
+    select your course: <br>
+    <input type="radio" name="course" value="freelancer">  freelancer <br>
+    <input type="radio" name="course" value="web designer"> web designer<br>
+    <input type="radio" name="course" value="graphic designer" > graphic designer <br>
+    <input type="radio" name="course" value="python"> python<br>
+    <br>
+
+    select your favourite book : <br>
+           <input type="checkbox" name="book" value="maths">  maths <br>
+           <input type="checkbox" name="book" value="english"> english <br>
+           <input type="checkbox" name="book" value="pak study" > pak study  <br>
+           <input type="checkbox" name="book" value="story" checked > story  <br>
+     <br>
+     <p>choose language</p>
+     <select name="languages">
+     <option value="en">english</option>
+     <option value="ur" selected>urdu</option>
+     <option value="ch">chinese</option>
+     <option value="ru">russian</option>
+     <option value="french">french</option>
+ 
+     
+     </select><br><br>
+
+     
+     <p>Do you play any of the following game?
+     (You can select more than one option by holding
+     down control on a PC or command key on a Mac
+     while selecting different options.)</p>
+     <select name="game" size="3"
+     multiple="multiple">
+     <option value="circket" selected="selected">circket</option>
+     <option value="hockey">hockey</option>
+     <option value="football" selected="selected">football</option>
+     <option value="volleyball">volleyball</option>
+     </select>
+     <br>
+     <br>
+     
+        <fieldset>
+            <legend>Contact details</legend>
+            <label>Email:<br />
+                <input type="text" name="email" /></label><br />
+                <label>Mobile:<br />
+                    <input type="text" name="mobile" /></label><br />
+                    <label>Telephone:<br />
+                        <input type="text" name="telephone" /></label>
+        </fieldset><br><br>
+
+<br><br>
+
+
+<label for="username"> date of birth:</label>
+<input type="date" name="dob" /><br><br>
+
+<p>Please enter your email address:</p>
+<input type="email" name="email" /><br><br>
+
+
+<input type="search" name="search" />
+<input type="submit" value="Search" /><br><br><br>
+
+<input type="search" name="search"
+placeholder="12345-3223423-4" />
+<input type="submit" value="Search" />
+
+
+<hr width="500">
+<input type="reset"><hr><hr>
+
+<!-- code insert above -->
+        <input type="submit" name="submit">
+
+</form><br>
+
+
+<!-- form end  -->
+</body>
+</html>
